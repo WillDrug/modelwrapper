@@ -54,7 +54,7 @@ class RedisConfigurator(ConfigLoader):
     def __init__(self, initial: BaseConfig = None, **kwargs):
         connector = kwargs.pop('connector', ConfigEnvironment.PERSISTENT.conf.get('connector', Connector()))
         if connector is None:
-            connector = Connector()  # initiate default package-wide connection if none given
+            connector = Connector()  # initiate default package-wide connection if none given fixme: remove redundant
         self.__conn = connector
         if initial is not None:
             self.init_config(initial)
