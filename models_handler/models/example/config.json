@@ -1,0 +1,18 @@
+{
+  "model": {},
+  "connections": {
+    "conn1": {
+      "host": "test_host1_1",
+      "login": "login1",
+      "password": "password1",
+      "query": "query1"
+    },
+    "conn2": {
+      "host": "test_host1_2",
+      "login": "login2",
+      "password": "password2",
+      "query": "query2"
+    }
+  }
+}
+

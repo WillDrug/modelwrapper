@@ -1,0 +1,12 @@
+{
+  "LOGGER_LEVEL":  "DEBUG",
+  "LOGS_FOLDER": "logs",
+  "TRACE_PATH":  "trace.log",
+  "MAX_TRACE_SIZE": 1,
+  "TRACE_BACKUPS_LIMIT": 2,
+  "ERROR_PATH": "error.log",
+  "MAX_ERROR_SIZE": 1,
+  "ERRORS_BACKUPS_LIMIT": 2,
+  "WRITE_TO_STD_OUT": true,
+  "LOGGER_QUEUE": "logger_in_q"
+}
