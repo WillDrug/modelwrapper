@@ -51,4 +51,5 @@ Each model uploaded is stored on the shelf and you can restore to the previous v
 
 # Credits and links
 Docker image is available at [dockerhub](https://hub.docker.com/r/willdrug/modelwrapper/)
+
 Credit to [Nario](https://github.com/Nario560/) for logger and modelwrapper base.
